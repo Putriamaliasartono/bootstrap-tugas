@@ -1,0 +1,61 @@
+html {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(buku.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ }
+
+ .wrapper {
+     width: 350px;
+     background: transparent;
+     border: 2px solid rgba(225, 225, 225, .2);
+     backdrop-filter: blur(20px);
+     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        color: white;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        border-radius: 10px;
+     align-items: center;
+     text-align: center;
+
+ }
+
+.input-box input {
+ border-radius: 10px;
+ background: transparent;
+ border: none;
+ outline: none;
+ border: 2px solid rgba(225, 225, 225, .2);
+ font-size: 14px;
+ color: white;
+ padding: 8px;
+}
+
+ .input-box textarea {
+     border-radius: 7px;
+     background: transparent;
+     border: none;
+     outline: none;
+     border: 2px solid rgba(225, 225, 225, .2);
+     font-size: 14px;
+     color: white;
+     padding: 8px;
+ }
+
+ .input-box input::placeholder {
+     color: white;
+ }
+
+ .input-box textarea::placeholder {
+     color: white;
+ }
+
+

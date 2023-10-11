@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+
+<body> 
+<div class="container">   
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="col">
+          <div class="card">
+            <img src="foto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div>
+  <ul class="nav nav-pills mt-3 mb-8" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-pengalaman-tab" data-bs-toggle="pill" data-bs-target="#pills-pengalaman" type="button" role="tab" aria-controls="pills-pengalaman" aria-selected="true">Pengalaman</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-matkul-tab" data-bs-toggle="pill" data-bs-target="#pills-matkul" type="button" role="tab" aria-controls="pills-matkul" aria-selected="false">Daftar Mata Kuliah</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-dosen-tab" data-bs-toggle="pill" data-bs-target="#pills-dosen" type="button" role="tab" aria-controls="pills-dosen" aria-selected="false">Daftar Dosen</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-teman-tab" data-bs-toggle="pill" data-bs-target="#pills-teman" type="button" role="tab" aria-controls="pills-teman" aria-selected="false">Daftar Teman</button>
+    </li>
+  </ul>
+  <div class="tab-content mt-3 mb-3" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-pengalaman" role="tabpanel" aria-labelledby="pills-pengalaman-tab" tabindex="0">Pengalaman yang tidak saya lupakan saat kuliah di jtik yaitu ketika mengerjakan laporan 
+      sampai tengah malam/subuh sehingga jam tidur tidak teratur kemudian melakukan asistensi sampai tengah malam.</div>
+    <div class="tab-pane fade" id="pills-matkul" role="tabpanel" aria-labelledby="pills-matkul-tab" tabindex="0">
+      <p class="fw-bold">Daftar Mata Kuliah yang telah dipelajari</p>
+      <ul type="square">
+        <li>Pemrograman 2D dan 3D</li>
+        <li>Komunikasi Data</li>
+        <li>Kecerdasan Buatan</li>
+      </ul>
+    </div>
+    <div class="tab-pane fade" id="pills-dosen" role="tabpanel" aria-labelledby="pills-dosen-tab" tabindex="0">
+      <p class="fw-bold">Daftar Dosen</p>
+      <ul type="square">
+        <li>Dr. Muliadi, S.Pd., M.T.</li>
+        <li>Dr. Ir. Mustari Lamada, S.Pd., M.T.</li>
+        <li>Alifya NFH, S.Pd., M.Pd.</li>
+    </div>
+    <div class="tab-pane fade" id="pills-teman" role="tabpanel" aria-labelledby="pills-teman-tab" tabindex="0">
+    <p class="fw-bold">Daftar Teman</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">No</th>
+          <th scope="col">Nama</th>
+          <th scope="col">Jenis kelamin</th>
+          <th scope="col">alamat</th>
+          <th scope="col">Asal sekolah</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Putri Amalia Sartono</td>
+          <td>Perempuan</td>
+          <td>Enrekang</td>
+          <td>SMK Negeri 3 Enrekang</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>La Ode Ardan</td>
+          <td>Laki Laki</td>
+          <td>Mallengkeri Luar Lorong 2</td>
+          <td>SMA Negeri 1 Kulisusu Barat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Wahyuni Nurul AlQuran</td>
+          <td>Perempuan</td>
+          <td>Barombong</td>
+          <td>SMK Negeri 2 Makassar</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</div>    
+</body>
+</html>

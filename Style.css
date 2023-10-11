@@ -1,0 +1,24 @@
+* {
+    font-family: "poppins", sans-serif;
+}
+
+
+.navbar{
+    background-color: #82aef6;  
+}
+
+.navbar .navbar-brand {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.navbar .navbar-nav a {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-inline: 20px;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
